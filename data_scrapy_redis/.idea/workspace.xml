@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="436cb0d3-cb2c-4158-a28d-3261d21ad71e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/data_scrapy_redis$base.coverage" NAME="base Coverage Results" MODIFIED="1516355289742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tmp" />
+    <SUITE FILE_PATH="coverage/data_scrapy_redis$tran.coverage" NAME="tran Coverage Results" MODIFIED="1516432713440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tmp" />
+    <SUITE FILE_PATH="coverage/data_scrapy_redis$ttt.coverage" NAME="ttt Coverage Results" MODIFIED="1516415074874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tmp" />
+    <SUITE FILE_PATH="coverage/data_scrapy_redis$test.coverage" NAME="test Coverage Results" MODIFIED="1516346402159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../news_itiger_scrapy/test" />
+    <SUITE FILE_PATH="coverage/data_scrapy_redis$t.coverage" NAME="t Coverage Results" MODIFIED="1516342866791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
+    <SUITE FILE_PATH="coverage/data_scrapy_redis$googletran.coverage" NAME="googletran Coverage Results" MODIFIED="1516431437081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tmp" />
+    <SUITE FILE_PATH="coverage/data_scrapy_redis$mongodb_test.coverage" NAME="mongodb_test Coverage Results" MODIFIED="1516355691976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../news_itiger_scrapy/test" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="news_itiger.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../news_itiger_scrapy/news_itiger_scrapy/spiders/news_itiger.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-234">
+              <caret line="44" column="47" lean-forward="false" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+                <element signature="e#450#715#0" expanded="false" />
+                <element signature="e#743#923#0" expanded="false" />
+                <element signature="e#985#1232#0" expanded="false" />
+                <element signature="e#1716#2099#0" expanded="false" />
+                <element signature="e#2906#2970#0" expanded="false" />
+                <element signature="e#3099#4786#0" expanded="false" />
+                <element signature="e#4506#4786#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>套细胞淋巴瘤</find>
+      <find>Drug catalyst information is displayed when you hover over the stage bar graph.</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../new_scrapy/new_scrapy/spiders/tx2.py" />
+        <option value="$PROJECT_DIR$/../test/t.py" />
+        <option value="$PROJECT_DIR$/../news_itiger_scrapy/data1.txt" />
+        <option value="$PROJECT_DIR$/../news_itiger_scrapy/test/test.py" />
+        <option value="$PROJECT_DIR$/../news_itiger_scrapy/news_itiger_scrapy/items.py" />
+        <option value="$PROJECT_DIR$/../tmp/err.txt" />
+        <option value="$PROJECT_DIR$/../tmp/base.py" />
+        <option value="$PROJECT_DIR$/../news_itiger_scrapy/test/mongodb_test.py" />
+        <option value="$PROJECT_DIR$/../news_itiger_scrapy/news_itiger_scrapy/pipelines.py" />
+        <option value="$PROJECT_DIR$/../tmp/ttt.py" />
+        <option value="$PROJECT_DIR$/../news_itiger_scrapy/news_itiger_scrapy/spiders/news_itiger.py" />
+        <option value="$PROJECT_DIR$/../tmp/tran.py" />
+        <option value="$PROJECT_DIR$/../tmp/googletran.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data_scrapy_redis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PycharmProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data_scrapy_redis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PycharmProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\tasks\news_itiger_scrapy" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.tran">
+    <configuration default="false" name="base" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../tmp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tools" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../tmp/base.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mongodb_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../news_itiger_scrapy/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tools" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../news_itiger_scrapy/test/mongodb_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ttt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../tmp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tools" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../tmp/ttt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tran" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../tmp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tools" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../tmp/tran.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="googletran" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../tmp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tools" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../tmp/googletran.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tools" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tools" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tools" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tools" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="tools" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tools" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tools" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.base" />
+      <item index="1" class="java.lang.String" itemvalue="Python.mongodb_test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ttt" />
+      <item index="3" class="java.lang.String" itemvalue="Python.tran" />
+      <item index="4" class="java.lang.String" itemvalue="Python.googletran" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.tran" />
+        <item index="1" class="java.lang.String" itemvalue="Python.googletran" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ttt" />
+        <item index="3" class="java.lang.String" itemvalue="Python.mongodb_test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.base" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="436cb0d3-cb2c-4158-a28d-3261d21ad71e" name="Default" comment="" />
+      <created>1516273296053</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516273296053</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2511381" sideWeight="0.48727274" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43801653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57822084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="44" y="182" width="1318" height="508" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17190082" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.51272726" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../new_scrapy/new_scrapy/spiders/tx2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#320#1069#0" expanded="false" />
+            <element signature="e#320#442#1" expanded="false" />
+            <element signature="e#514#1049#0" expanded="false" />
+            <element signature="e#1108#1304#0" expanded="false" />
+            <element signature="e#1205#1282#0" expanded="false" />
+            <element signature="e#1356#1621#0" expanded="false" />
+            <element signature="e#1649#1829#0" expanded="false" />
+            <element signature="e#1865#1969#0" expanded="false" />
+            <element signature="e#1874#1925#0" expanded="false" />
+            <element signature="e#2036#2661#0" expanded="false" />
+            <element signature="e#2123#2661#0" expanded="false" />
+            <element signature="e#2140#2586#0" expanded="false" />
+            <element signature="e#2615#2659#0" expanded="false" />
+            <element signature="e#2704#4170#0" expanded="false" />
+            <element signature="e#3053#3302#0" expanded="false" />
+            <element signature="e#3323#3376#0" expanded="false" />
+            <element signature="e#3395#3869#0" expanded="false" />
+            <element signature="e#3539#3821#0" expanded="false" />
+            <element signature="e#3929#4109#0" expanded="false" />
+            <element signature="e#4208#5675#0" expanded="false" />
+            <element signature="e#4557#4806#0" expanded="false" />
+            <element signature="e#4827#4880#0" expanded="false" />
+            <element signature="e#4899#5374#0" expanded="false" />
+            <element signature="e#5043#5326#0" expanded="false" />
+            <element signature="e#5434#5614#0" expanded="false" />
+            <element signature="e#5715#7182#0" expanded="false" />
+            <element signature="e#6064#6313#0" expanded="false" />
+            <element signature="e#6334#6387#0" expanded="false" />
+            <element signature="e#6407#6881#0" expanded="false" />
+            <element signature="e#6551#6833#0" expanded="false" />
+            <element signature="e#6941#7121#0" expanded="false" />
+            <element signature="e#7219#8685#0" expanded="false" />
+            <element signature="e#7568#7817#0" expanded="false" />
+            <element signature="e#7838#7891#0" expanded="false" />
+            <element signature="e#7910#8384#0" expanded="false" />
+            <element signature="e#8054#8336#0" expanded="false" />
+            <element signature="e#8444#8624#0" expanded="false" />
+            <element signature="e#8687#8732#0" expanded="false" />
+            <element signature="e#8804#11966#0" expanded="false" />
+            <element signature="e#8905#9214#0" expanded="false" />
+            <element signature="e#9072#9207#0" expanded="false" />
+            <element signature="e#9255#11966#0" expanded="false" />
+            <element signature="e#9449#9660#0" expanded="false" />
+            <element signature="e#9689#9764#0" expanded="false" />
+            <element signature="e#9915#11966#0" expanded="false" />
+            <element signature="e#10004#11493#0" expanded="false" />
+            <element signature="e#10043#11493#0" expanded="false" />
+            <element signature="e#10164#10202#0" expanded="false" />
+            <element signature="e#11361#11493#0" expanded="false" />
+            <element signature="e#11390#11439#0" expanded="false" />
+            <element signature="e#11578#11965#0" expanded="false" />
+            <element signature="e#11966#12016#0" expanded="false" />
+            <element signature="e#12053#12675#0" expanded="false" />
+            <element signature="e#12106#12437#0" expanded="false" />
+            <element signature="e#12484#12547#0" expanded="false" />
+            <element signature="e#12589#12674#0" expanded="false" />
+            <element signature="e#12726#13191#0" expanded="false" />
+            <element signature="e#13094#13161#0" expanded="false" />
+            <element signature="e#13468#13774#0" expanded="false" />
+            <element signature="e#13632#13767#0" expanded="false" />
+            <element signature="e#14267#14341#0" expanded="false" />
+            <element signature="e#14581#16061#0" expanded="false" />
+            <element signature="e#14620#16061#0" expanded="false" />
+            <element signature="e#14802#14910#0" expanded="false" />
+            <element signature="e#15929#16061#0" expanded="false" />
+            <element signature="e#15958#16007#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../new_scrapy/start.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../new_scrapy/controller/controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_scrapy_redis/spiders/xignite_week52base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="225" column="23" lean-forward="false" selection-start-line="225" selection-start-column="12" selection-end-line="225" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../news_itiger_scrapy/test/tmp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../news_itiger_scrapy/data1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="0" column="643" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="10550" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../new_scrapy/new_scrapy/spiders/tx2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="31" />
+          <folding>
+            <element signature="e#320#1069#0" expanded="false" />
+            <element signature="e#320#442#1" expanded="false" />
+            <element signature="e#514#1049#0" expanded="false" />
+            <element signature="e#1108#1304#0" expanded="false" />
+            <element signature="e#1205#1282#0" expanded="false" />
+            <element signature="e#1356#1621#0" expanded="false" />
+            <element signature="e#1649#1829#0" expanded="false" />
+            <element signature="e#1865#1969#0" expanded="false" />
+            <element signature="e#1874#1925#0" expanded="false" />
+            <element signature="e#2036#2661#0" expanded="false" />
+            <element signature="e#2123#2661#0" expanded="false" />
+            <element signature="e#2140#2586#0" expanded="false" />
+            <element signature="e#2615#2659#0" expanded="false" />
+            <element signature="e#2704#4170#0" expanded="false" />
+            <element signature="e#3053#3302#0" expanded="false" />
+            <element signature="e#3323#3376#0" expanded="false" />
+            <element signature="e#3395#3869#0" expanded="false" />
+            <element signature="e#3539#3821#0" expanded="false" />
+            <element signature="e#3929#4109#0" expanded="false" />
+            <element signature="e#4208#5675#0" expanded="false" />
+            <element signature="e#4557#4806#0" expanded="false" />
+            <element signature="e#4827#4880#0" expanded="false" />
+            <element signature="e#4899#5374#0" expanded="false" />
+            <element signature="e#5043#5326#0" expanded="false" />
+            <element signature="e#5434#5614#0" expanded="false" />
+            <element signature="e#5715#7182#0" expanded="false" />
+            <element signature="e#6064#6313#0" expanded="false" />
+            <element signature="e#6334#6387#0" expanded="false" />
+            <element signature="e#6407#6881#0" expanded="false" />
+            <element signature="e#6551#6833#0" expanded="false" />
+            <element signature="e#6941#7121#0" expanded="false" />
+            <element signature="e#7219#8685#0" expanded="false" />
+            <element signature="e#7568#7817#0" expanded="false" />
+            <element signature="e#7838#7891#0" expanded="false" />
+            <element signature="e#7910#8384#0" expanded="false" />
+            <element signature="e#8054#8336#0" expanded="false" />
+            <element signature="e#8444#8624#0" expanded="false" />
+            <element signature="e#8687#8732#0" expanded="false" />
+            <element signature="e#8804#11966#0" expanded="false" />
+            <element signature="e#8905#9214#0" expanded="false" />
+            <element signature="e#9072#9207#0" expanded="false" />
+            <element signature="e#9255#11966#0" expanded="false" />
+            <element signature="e#9449#9660#0" expanded="false" />
+            <element signature="e#9689#9764#0" expanded="false" />
+            <element signature="e#9915#11966#0" expanded="false" />
+            <element signature="e#10004#11493#0" expanded="false" />
+            <element signature="e#10043#11493#0" expanded="false" />
+            <element signature="e#10164#10202#0" expanded="false" />
+            <element signature="e#11361#11493#0" expanded="false" />
+            <element signature="e#11390#11439#0" expanded="false" />
+            <element signature="e#11578#11965#0" expanded="false" />
+            <element signature="e#11966#12016#0" expanded="false" />
+            <element signature="e#12053#12675#0" expanded="false" />
+            <element signature="e#12106#12437#0" expanded="false" />
+            <element signature="e#12484#12547#0" expanded="false" />
+            <element signature="e#12589#12674#0" expanded="false" />
+            <element signature="e#12726#13191#0" expanded="false" />
+            <element signature="e#13094#13161#0" expanded="false" />
+            <element signature="e#13468#13774#0" expanded="false" />
+            <element signature="e#13632#13767#0" expanded="false" />
+            <element signature="e#14267#14341#0" expanded="false" />
+            <element signature="e#14581#16061#0" expanded="false" />
+            <element signature="e#14620#16061#0" expanded="false" />
+            <element signature="e#14802#14910#0" expanded="false" />
+            <element signature="e#15929#16061#0" expanded="false" />
+            <element signature="e#15958#16007#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../news_itiger_scrapy/news_itiger_scrapy/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../news_itiger_scrapy/test/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="30" selection-end-column="41" />
+          <folding>
+            <element signature="e#141#156#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../new_scrapy/new_scrapy/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="131" column="12" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="157" selection-end-column="19" />
+          <folding>
+            <element signature="e#468#1811#0" expanded="false" />
+            <element signature="e#1859#3347#0" expanded="false" />
+            <element signature="e#3393#4067#0" expanded="false" />
+            <element signature="e#4101#4510#0" expanded="false" />
+            <element signature="e#4547#5378#0" expanded="false" />
+            <marker date="1513754785264" expanded="true" signature="2261:2279" ph="insert into missing_value... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tmp/marketCapital.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tmp/err.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tmp/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="75" column="15" lean-forward="false" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
+          <folding>
+            <element signature="e#141#153#0" expanded="false" />
+            <element signature="e#204#953#0" expanded="false" />
+            <element signature="e#398#933#0" expanded="false" />
+            <element signature="e#978#1140#0" expanded="false" />
+            <element signature="e#1168#1429#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../news_itiger_scrapy/news_itiger_scrapy/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="e#243#1088#0" expanded="false" />
+            <element signature="e#365#725#0" expanded="false" />
+            <element signature="e#840#854#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../test/t.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../test/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-335">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tmp/ttt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../new_scrapy/new_scrapy/spiders/tx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="69" selection-end-column="20" />
+          <folding>
+            <element signature="e#322#1071#0" expanded="false" />
+            <element signature="e#516#1051#0" expanded="false" />
+            <element signature="e#1110#1306#0" expanded="false" />
+            <element signature="e#1207#1284#0" expanded="false" />
+            <element signature="e#1358#1623#0" expanded="false" />
+            <element signature="e#1651#1831#0" expanded="false" />
+            <element signature="e#1897#2173#0" expanded="false" />
+            <element signature="e#1924#2173#0" expanded="false" />
+            <element signature="e#1941#2136#0" expanded="false" />
+            <element signature="e#2209#2302#0" expanded="false" />
+            <element signature="e#2345#3724#0" expanded="false" />
+            <element signature="e#2694#2943#0" expanded="false" />
+            <element signature="e#2964#3017#0" expanded="false" />
+            <element signature="e#3036#3423#0" expanded="false" />
+            <element signature="e#3180#3375#0" expanded="false" />
+            <element signature="e#3483#3663#0" expanded="false" />
+            <element signature="e#3762#5141#0" expanded="false" />
+            <element signature="e#4111#4360#0" expanded="false" />
+            <element signature="e#4381#4434#0" expanded="false" />
+            <element signature="e#4453#4840#0" expanded="false" />
+            <element signature="e#4597#4792#0" expanded="false" />
+            <element signature="e#4900#5080#0" expanded="false" />
+            <element signature="e#5181#6560#0" expanded="false" />
+            <element signature="e#5530#5779#0" expanded="false" />
+            <element signature="e#5800#5853#0" expanded="false" />
+            <element signature="e#5873#6259#0" expanded="false" />
+            <element signature="e#6017#6211#0" expanded="false" />
+            <element signature="e#6319#6499#0" expanded="false" />
+            <element signature="e#6597#7975#0" expanded="false" />
+            <element signature="e#6946#7195#0" expanded="false" />
+            <element signature="e#7216#7269#0" expanded="false" />
+            <element signature="e#7288#7674#0" expanded="false" />
+            <element signature="e#7432#7626#0" expanded="false" />
+            <element signature="e#7734#7914#0" expanded="false" />
+            <element signature="e#7977#8016#0" expanded="false" />
+            <element signature="e#8504#10380#0" expanded="false" />
+            <element signature="e#8772#10380#0" expanded="false" />
+            <element signature="e#8842#10035#0" expanded="false" />
+            <element signature="e#8945#8949#0" expanded="false" />
+            <element signature="e#9940#10035#0" expanded="false" />
+            <element signature="e#10086#10379#0" expanded="false" />
+            <element signature="e#10380#10420#0" expanded="false" />
+            <element signature="e#10457#10878#0" expanded="false" />
+            <element signature="e#10510#10640#0" expanded="false" />
+            <element signature="e#10687#10750#0" expanded="false" />
+            <element signature="e#10792#10877#0" expanded="false" />
+            <element signature="e#10929#11310#0" expanded="false" />
+            <element signature="e#11213#11280#0" expanded="false" />
+            <element signature="e#11383#13819#0" expanded="false" />
+            <element signature="e#11486#11596#0" expanded="false" />
+            <element signature="e#11514#11589#0" expanded="false" />
+            <element signature="e#11637#13819#0" expanded="false" />
+            <element signature="e#11752#11921#0" expanded="false" />
+            <element signature="e#11950#12024#0" expanded="false" />
+            <element signature="e#12131#13819#0" expanded="false" />
+            <element signature="e#12201#13476#0" expanded="false" />
+            <element signature="e#12362#12429#0" expanded="false" />
+            <element signature="e#13381#13476#0" expanded="false" />
+            <element signature="e#13526#13819#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../news_itiger_scrapy/test/mongodb_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tmp/min0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tmp/tran.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="87" column="10" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="87" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tmp/tmp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tmp/googletran.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="86" column="10" lean-forward="true" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
+          <folding>
+            <element signature="e#169#184#0" expanded="true" />
+            <element signature="e#229#2445#0" expanded="false" />
+            <element signature="e#257#1639#0" expanded="false" />
+            <element signature="e#1930#2170#0" expanded="false" />
+            <element signature="e#2279#2425#0" expanded="false" />
+            <element signature="e#2462#3218#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../news_itiger_scrapy/err_url.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../news_itiger_scrapy/k.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../news_itiger_scrapy/news_itiger_scrapy/spiders/news_itiger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234">
+          <caret line="44" column="47" lean-forward="false" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+            <element signature="e#450#715#0" expanded="false" />
+            <element signature="e#743#923#0" expanded="false" />
+            <element signature="e#985#1232#0" expanded="false" />
+            <element signature="e#1716#2099#0" expanded="false" />
+            <element signature="e#2906#2970#0" expanded="false" />
+            <element signature="e#3099#4786#0" expanded="false" />
+            <element signature="e#4506#4786#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

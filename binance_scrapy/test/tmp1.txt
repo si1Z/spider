@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+    	<title>LTC(Litecoin) - 币安</title>
+        <meta charset="UTF-8" />
+        <meta name="keywords" content="币安、虚拟货币、比特币、比特币价格、ICO、比特币市场、以太坊、数字货币、数据分析、数字货币信息、coinmarket、代币、区块链" />
+        <meta name="description" content="Binance info是一个内容开放的、自由的数字货币行业数据分析平台，专注于为数字货币用户提供专业的数据货币信息、数据分析、数据挖掘等服务。" />
+        <meta content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" name="viewport" />
+        <meta content="yes" name="apple-mobile-web-app-capable" />
+        <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+        <meta content="telephone=no" name="format-detection" />
+        <meta content="yes" name="full-screen" />
+        <meta content="true" name="x5-fullscreen" />
+        <link href="https://resource.binance.com/resources/img/favicon.ico" rel="shortcut icon" />
+        <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="/css/main.css" rel="stylesheet" type="text/css" />
+    	<link href="/css/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <!--公用头部-begin-->
+        <div class="container-fluid header">
+            <ul class="header-left">
+                <li class="logo"><a href="https://www.binance.com"><img alt="Binance" src="/images/logo-cn.svg" /></a></li>
+                <li class="top-nav-1">
+                    <div class="top-nav1-box">
+                        <a href="javascript:;">
+                            <i class="iconfont icon-exchange"></i>
+                            <span id="Exchange-lang">Exchange</span>
+                        </a>
+                    </div>
+                    <ul class="exchange-list">
+                        <li>
+                            <a href="https://www.binance.com/trade.html"><span id="Basic-lang">Basic</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.binance.com/tradeDetail.html"><span id="Advanced-lang">Advanced</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="top-nav-3">
+                    <a href="https://labs.binance.com/">
+                        <i class="iconfont icon-lab"></i>
+                        Labs
+                    </a>
+                </li>
+                <li class="top-nav-2">
+                    <a href="https://launchpad.binance.com/">
+                        <i class="iconfont icon-launchPad"></i>
+                        LaunchPad
+                    </a>
+                </li>
+                <li>
+                    <a href="/">
+                        <i class="iconfont icon-infoicoLine" style="font-size:14px;"></i>
+                        Info
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="header-right">
+                <!--登录前-->
+                <li>
+                    <a href="https://login.binance.com/cn/login?service=https%3A%2F%2Finfo.binance.com%2F">登录</a>
+                    <font>或</font>
+                    <a href="https://www.binance.com/register.html?lang=cn">注册</a>
+                </li>
+
+                <!--登录后-->
+                
+
+                <li class="top-line">
+                    <span class="line"></span>
+                </li>
+
+                <li class="flag-box" id="flagBox">
+                    <i class="iconfont icon-diqiu"></i>
+                    <!-- <span class="flag flag-cn" th:class="|flag flag-#{website.lang}|"></span> -->
+                    
+                    <span class="lang-flag">简体中文 <i></i></span>
+                    <ul class="flag-list" style="height:80px;">
+                        <li><a href="/en/currencies/litecoin"><span class="flag flag-en"></span> English</a></li>
+                        <li><a href="/cn/currencies/litecoin"><span class="flag flag-cn"></span> 简体中文</a></li>
+                        <!-- <li><a th:href="|/kr${_url}|"><span class="flag flag-kr"></span> 한국어</a></li>
+                        <li><a th:href="|/jp${_url}|"><span class="flag flag-jp"></span> 日本語</a></li>
+                        <li><a th:href="|/ru${_url}|"><span class="flag flag-ru"></span> русский</a></li>
+                        <li><a th:href="|/es${_url}|"><span class="flag flag-es"></span> Español</a></li> -->
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!--公用头部-end-->
+        
+        <!-- 内容-begin -->
+        <div style="min-height:calc(100% - 98px);">
+        <!--简介-begin-->
+        <div class="container-fluid index-info">
+        <h2 style="margin-top:30px;">Binance Info</h2>
+        <a class="addNewCoin" href="/cn/currencies/coin/add" target="_blank">
+            <span class="glyphicon glyphicon-plus-sign"></span><font>创建币种信息</font>
+        </a>
+    </div>
+        <!--简介-end-->
+
+        <!--分类筛选搜索-begin-->
+        <div class="container index-select-search">
+            <div class="row">
+                <div class="col-xs-2">
+                    <div class="dropdown">
+                        <button aria-expanded="true" aria-haspopup="true" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="dropdownMenu" type="button">
+                            <span class="markName"><img alt="USD" src="/images/usd-ico.png" />USD</span>
+                            <span class="caret"></span>
+                        </button>
+                        <ul aria-labelledby="dropdownMenu" class="dropdown-menu markSelect">
+                            <li id="toUsd">
+                                <a href="javascript:;"><img alt="USD" src="/images/usd-ico.png" />USD</a>
+                            </li>
+                            <li id="toCny">
+                                <a href="javascript:;"><img alt="CNY" src="/images/cny-ico.png" />CNY</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-xs-offset-7">
+                    <div class="form-grounp search-box">
+                        <input class="form-control" id="search-int" placeholder="搜索" type="text" data-url="/coin/search" />
+                        <span class="glyphicon glyphicon-search"></span>
+                        <ul class="search-result"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--分类筛选搜索-end-->
+
+        <!--详情-begin-->
+        <div class="container">
+            <div class="content-box">
+                <div class="row content-top">
+                    <div class="col-xs-5">
+                        <ul class="media-list maket-t">
+                            <li class="media">
+                                <div class="media-left">
+                                    <a href="javascript:void(0)">
+                                        <img class="media-object" src="https://resource.bnbstatic.com/files/images/20180208/1518105816779.png" alt="LTC" />
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">
+                                        <font>LTC</font>&nbsp;&nbsp;<span>(Litecoin)</span>
+                                        <a class="btn btn-default btn-sm" href="/cn/currencies/edit/600">
+                                            <span class="glyphicon glyphicon-pencil"></span>
+                                            <font>编辑</font>
+                                        </a>
+                                    </h4>
+                                    <p>
+                                        <strong class="symbol">$</strong>
+                                        <strong class="symbolNum three" data-value="137.620">137.620</strong>
+                                        <span class="text-zhang">1.49%</span>
+                                        <a href="https://www.binance.com/trade.html?symbol=LTC_BTC" rel="noopener noreferrer" target="_blank">去交易 &gt;</a>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-7">
+                        <div class="row maket-info">
+                            <div class="col-xs-4">
+                                <span>市值</span><strong class="symbol">$</strong><strong class="symbolNum zero" data-value="7707131896.6600000000">7,707,131,897</strong>
+                            </div>
+                            <div class="col-xs-4">
+                                <span>发行总量</span><strong>84,000,000 LTC</strong>
+                            </div>
+                            <div class="col-xs-4">
+                                <span class="text-muted">流通数量</span><strong>56,002,993 LTC</strong>
+                            </div>
+                            <div class="col-xs-4">
+                                <!--涨的状态-->
+                                <div class="down-box">
+                                    <span>发行价格</span>
+                                    <strong id="issuePriceBox">-</strong>
+                                    
+                                    
+                                    <!--下拉说明-->
+                                    
+                                </div>
+                                <!--跌的状态-->
+                                
+                            </div>
+                            <div class="col-xs-4">
+                                <span class="text-muted">发行日期</span>
+                                <strong>2011-11-09</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ol class="breadcrumb">
+                    <ul class="pull-left">
+                        <li><a href="https://litecoin.com" rel="noopener noreferrer" target="_blank">官网 &gt;</a></li>
+                        <li><a href="http://explorer.litecoin.net/chain/Litecoin" rel="noopener noreferrer" target="_blank">区块链浏览器 &gt;</a></li>
+                        
+                    </ul>
+                    <ul class="pull-right">
+                        <li>Social:</li>
+                        
+                        
+                        <li class="detail-ico3">
+                            <a href="https://twitter.com/LitecoinProject" rel="noopener noreferrer" target="_blank" title="twitter"></a>
+                        </li>
+                        
+                    </ul>
+                </ol>
+                <div class="content-text">
+                    <h4 class="content-text-t">
+                        <span class="content-text-t-ico"></span>
+                        <font>介绍</font>
+                    </h4>
+                    <div class="content-text-con">
+                        <p>莱特币Litecoin（简写：LTC，货币符号：Ł）是一种基于“点对点”(peer-to-peer)技术的网络货币，也是MIT/X11许可下的一个开源软件项目。它可以帮助用户即时付款给世界上任何一个人。</p>
+                        <p>莱特币受到了比特币（BTC）的启发，并且在技术上具有相同的实现原理，莱特币的创造和转让基于一种开源的加密协议，不受到任何中央机构的管理。莱特币旨在改进比特币，与其相比，莱特币具有三种显著差异。第一，莱特币网络每2.5分钟（而不是10分钟）就可以处理一个块，因此可以提供更快的交易确认。第二，莱特币网络预期产出8400万个莱特币，是比特币网络发行货币量的四倍之多。第三，莱特币在其工作量证明算法中使用了由Colin Percival首次提出的scrypt加密算法，这使得相比于比特币，在普通计算机上进行莱特币挖掘更为容易。每一个莱特币被分成100,000,000个更小的单位，通过八位小数来界定。</p>
+                        <p>设计目的</p>
+                        <p>它基于比特币(Bitcoin)协议，但不同于比特币的地方在于，即使在现阶段，通过消费级的硬件也可以高效地“挖矿”。Litecoin提供给您更快速的交易确认（平均2.5分钟），它使用硬内存以及基于scrypt(一种加密算法)的挖矿工作量证明算法，面向大多数人使用的普通计算机及图形处理器(GPU)。Litecoin网络预期将生产8400万个货币单位。</p>
+                        <p>Litecoin的设计目的之一是提供一种挖掘算法，使它能够在挖掘比特币的机器上被同时运行。为挖掘比特币而设计的专用集成电路(ASIC)逐渐兴起的同时，Litecoin也紧跟着技术演变。但在Litecoin货币被广泛应用之前，不太可能会出现专门为Litecoin设计的专用集成电路(ASIC)。</p></div>
+                </div>
+                <div class="news-box">
+                    <h4 class="news-box-t">
+                        <span class="content-text-t-ico"></span>
+                        <font>最新动态</font>
+                        <a class="btn btn-default btn-sm" href="/cn/dynamic/add/600">
+                            <i class="glyphicon glyphicon-plus-sign"></i>
+                            <font>添加动态</font>
+                        </a>
+                    </h4>
+                    <div class="row news-list">
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--详情-end-->
+
+        <!--Telegram Modal -->
+        <div aria-labelledby="myModalLabel2" class="modal fade bs-example-modal-sm" id="myModal" role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-lg" role="document" style="width:785px;top:40%;">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+                    <div class="text-center">
+                        <img alt="telegram" src="/images/telegram.png" />
+                        <h4>Binance Telegram</h4>
+                        <div class="text-left row">
+                            <div class="form-group col-xs-6">
+                                <label class="text-right col-xs-3">中文</label>
+                                <div class="input-group col-xs-9">
+                                    <div class="input-group-addon text-success"><span class="glyphicon glyphicon-lock"></span></div>
+                                    <div class="form-control"><a href="https://t.me/BinanceChinese" target="_blank">https://t.me/BinanceChinese</a></div>
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-6">
+                                <label class="text-right col-xs-3">Português</label>
+                                <div class="input-group col-xs-9">
+                                    <div class="input-group-addon text-success"><span class="glyphicon glyphicon-lock"></span></div>
+                                    <div class="form-control"><a href="https://t.me/BinancePortuguese" target="_blank">https://t.me/BinancePortuguese</a></div>
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-6">
+                                <label class="text-right col-xs-3">English</label>
+                                <div class="input-group col-xs-9">
+                                    <div class="input-group-addon text-success"><span class="glyphicon glyphicon-lock"></span></div>
+                                    <div class="form-control"><a href="https://t.me/binanceexchange" target="_blank">https://t.me/binanceexchange</a></div>
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-6">
+                                <label class="text-right col-xs-3">भारतीय</label>
+                                <div class="input-group col-xs-9">
+                                    <div class="input-group-addon text-success"><span class="glyphicon glyphicon-lock"></span></div>
+                                    <div class="form-control"><a href="https://t.me/BinanceIndian" target="_blank">https://t.me/BinanceIndian</a></div>
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-6">
+                                <label class="text-right col-xs-3">русский</label>
+                                <div class="input-group col-xs-9">
+                                    <div class="input-group-addon text-success"><span class="glyphicon glyphicon-lock"></span></div>
+                                    <div class="form-control"><a href="https://t.me/BinanceRussian" target="_blank">https://t.me/BinanceRussian</a></div>
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-6">
+                                <label class="text-right col-xs-3">日本語</label>
+                                <div class="input-group col-xs-9">
+                                    <div class="input-group-addon text-success"><span class="glyphicon glyphicon-lock"></span></div>
+                                    <div class="form-control"><a href="https://t.me/BinanceJapanese" target="_blank">https://t.me/BinanceJapanese</a></div>
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-6">
+                                <label class="text-right col-xs-3">Français</label>
+                                <div class="input-group col-xs-9">
+                                    <div class="input-group-addon text-success"><span class="glyphicon glyphicon-lock"></span></div>
+                                    <div class="form-control"><a href="https://t.me/BinanceFrench" target="_blank">https://t.me/BinanceFrench</a></div>
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-6">
+                                <label class="text-right col-xs-3">Italiano</label>
+                                <div class="input-group col-xs-9">
+                                    <div class="input-group-addon text-success"><span class="glyphicon glyphicon-lock"></span></div>
+                                    <div class="form-control"><a href="https://t.me/BinanceItalian" target="_blank">https://t.me/BinanceItalian</a></div>
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-6">
+                                <label class="text-right col-xs-3">Español</label>
+                                <div class="input-group col-xs-9">
+                                    <div class="input-group-addon text-success"><span class="glyphicon glyphicon-lock"></span></div>
+                                    <div class="form-control"><a href="https://t.me/BinanceSpanish" target="_blank">https://t.me/BinanceSpanish</a></div>
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-6">
+                                <label class="text-right col-xs-3">한국어</label>
+                                <div class="input-group col-xs-9">
+                                    <div class="input-group-addon text-success"><span class="glyphicon glyphicon-lock"></span></div>
+                                    <div class="form-control"><a href="https://t.me/BinanceKorean" target="_blank">https://t.me/BinanceKorean</a></div>
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-6">
+                                <label class="text-right col-xs-3">Deutsch</label>
+                                <div class="input-group col-xs-9">
+                                    <div class="input-group-addon text-success"><span class="glyphicon glyphicon-lock"></span></div>
+                                    <div class="form-control"><a href="https://t.me/BinanceGerman" target="_blank">https://t.me/BinanceGerman</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!--pay-coin Modal -->
+        <div aria-labelledby="mySmallModalLabel" class="modal fade payModal" role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+                </div>
+
+                <!--本次提交需要支付0个BNB（60BNB）?-->
+                <div class="paystatus" id="payStatus1" style="display: none;">
+                    <div class="modal-body">
+                        <!--英文-->
+                        
+                        <!--中文-->
+                        <p>
+                            本次提交需要支付<strong><span>0</span>个BNB</strong><span>（<del><span>0</span>BNB</del>）</span>
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-default payCancel" data-dismiss="modal" type="button">Cancel</button>
+                        <button class="btn btn-warning payOk" id="payStatus1Submit" onClick="hidePayModal(0)" type="button">Ok</button>
+                    </div>
+                </div>
+
+                <!--本次提交需要支付60个BNB?-->
+                <div class="paystatus" id="payStatus2" style="display: none;">
+                    <div class="modal-body">
+                        
+                        <h4>本次提交需要支付<strong><span>null0</span></strong>个BNB?</h4>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-default payCancel" data-dismiss="modal" type="button">Cancel</button>
+                        <button class="btn btn-warning payOk" id="payStatus2Submit" onClick="hidePayModal(1)" type="button">Ok</button>
+                    </div>
+                </div>
+
+                <!--提交失败 您的BNB余额不足-->
+                <div class="paystatus" id="payStatus3" style="display: none;">
+                    <div class="modal-body">
+                        <h4 class="SubmissionFailed">Submission Failed</h4>
+                        <p class="accountHasInsufficient">Your account has insufficient BNB balance.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-warning payOk" data-dismiss="modal" type="button">Ok</button>
+                    </div>
+                </div>
+
+                <!--提交失败-->
+                <div class="paystatus" id="payStatus4" style="display: none;">
+                    <div class="modal-body">
+                        <h4 class="SubmissionFailed">Submission Failed</h4>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-warning payOk" data-dismiss="modal" type="button">Ok</button>
+                    </div>
+                </div>
+
+                <!--本次支付失败 请再试一次-->
+                <div class="paystatus" id="payStatus5" style="display: none;">
+                    <div class="modal-body">
+                        <h4 class="SubmissionFailed">Submission Failed</h4>
+                        <p class="paymentFailed">Your payment can’t be completed. Please try again.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-default payCancel" data-dismiss="modal" type="button">Cancel</button>
+                        <button class="btn btn-warning payResubmit" id="payResubmit" type="button">Resubmit</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+        <!--提交成功弹框-->
+        <div aria-labelledby="mySmallModalLabel" class="modal fade submitSuccessModal" id="submitSuccessModal" role="dialog" tabindex="-1">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <h3 id="responseInfo">提交成功</h3>
+                </div>
+                <div class="model-footer">
+
+                </div>
+            </div>
+        </div>
+
+        <!--Telegram列表弹框-->
+        <div aria-labelledby="myModalLabel2" class="modal fade TelegramTan bs-example-modal-lg" id="myModal" role="dialog" tabindex="-1">
+            <div class="modal-dialog modal-lg" role="document" style="min-width: 900px;top:45%;transform:translate(0,-45%);">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+                        <div class="text-center">
+                            <h4 class="mb20">
+                                <font>LTC</font>&nbsp;&nbsp;<span>(Litecoin)</span> Telegram</h4>
+                            <div class="row">
+                                
+                                
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- 内容-end -->
+
+        <!--公用底部-begin-->
+        <div class="container-fluid footer">
+            <div class="row footer-bg1">
+                <div class="container">
+                    <div class="row footer-btm-line">
+                        <div class="col-xs-7">
+                            <ul class="service-list ml-15">
+                                <li>
+                                    <a href="https://www.binance.com/aboutUs.html" rel="noopener noreferrer" target="_blank">
+                                        <span>关于我们</span>
+                                        
+                                    </a>
+                                </li>
+				    			<li>
+                                    <a href="https://www.binance.com/agreement.html" rel="noopener noreferrer" target="_blank">
+                                        <span>服务协议</span>
+                                        
+                                    </a>
+                                </li>
+				    			<li>
+                                    <a href="https://www.binance.com/statement.html" rel="noopener noreferrer" target="_blank">
+                                        <span>隐私声明</span>
+                                        
+                                    </a>
+                                </li>
+				    			<li>
+                                    <a href="https://www.binance.com/fees.html" rel="noopener noreferrer" target="_blank">
+                                        <span>费率标准</span>
+                                        
+                                    </a>
+                                </li>
+				    			<li>
+                                    <a href="https://www.binance.com/contactUsCn.html" rel="noopener noreferrer" target="_blank">
+                                        <span>联系我们</span>
+                                        
+                                    </a>
+                                </li>
+				    			<li>
+                                    <a href="https://github.com/binance-exchange/binance-official-api-docs" rel="noopener noreferrer" target="_blank">
+                                        <span>API文档</span>
+                                        
+                                    </a>
+                                </li>
+				    			<li>
+                                    
+                                    <a href="https://binance.zendesk.com/hc/zh-cn/articles/115000822512" rel="noopener noreferrer" target="_blank">上币申请</a>
+                                </li>
+				    			<li>
+                                    <a href="https://www.binance.com/clientDownloads.html" rel="noopener noreferrer" target="_blank">
+                                        <span>下载客户端</span>
+                                        
+                                    </a>
+                                </li>
+				    		</ul>
+                        </div>
+                        <div class="col-xs-5 text-right">
+                            <ul class="share-list mr-15">
+                                <li class="media-telegram"><a data-target=".bs-example-modal-sm" data-toggle="modal" href="javascript:;" title="telegram"></a></li>
+                                <li class="media-fb"><a href="https://www.facebook.com/binanceexchange" rel="noopener noreferrer" target="_blank" title="facebook"></a></li>
+                                <li class="media-tt"><a href="https://twitter.com/binance" rel="noopener noreferrer" target="_blank" title="twitter"></a></li>
+                                <li class="media-rd"><a href="https://www.reddit.com/r/binance/" rel="noopener noreferrer" target="_blank" title="reddit"></a></li>
+                                <li class="media-weibo"><a href="http://weibo.com/binance?is_hot=1" rel="noopener noreferrer" target="_blank" title="weibo"></a></li>
+                                <li class="media-steemit"><a href="https://steemit.com/@binanceexchange" rel="noopener noreferrer" target="_blank" title="Steemit"><i class="media media-steemit"></i></a></li>
+                                <li class="media-medium"><a href="https://medium.com/binanceexchange" rel="noopener noreferrer" target="_blank" title="Medium"><i class="media media-medium"></i></a></li>
+                                <li class="media-instagram"><a href="https://www.instagram.com/binanceexchange/" rel="noopener noreferrer" target="_blank" title="Instagram"><i class="media media-instagram"></i></a></li>
+                            </ul>
+                            <div class="ewm-box wx-box">
+                                <div class="ewm-box-con">
+                                    <span><img alt="Custom Service" src="/images/weixin_01.png" />Custom Service</span>
+                                    <span><img alt="Binance News" src="/images/weixin_02.png" />Binance News</span>
+                                </div>
+                                <span class="ewm-jt"></span>
+                            </div>
+                            <div class="ewm-box qq-box">
+                                <div class="ewm-box-con">
+                                    <span><img alt="" src="/images/qq1.png" />QQ Group: 199906603</span>
+                                </div>
+                                <span class="ewm-jt"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-bg2">
+                <div class="container">
+                    <div class="row footer-btm-copyright">
+                        <div class="col-xs-6">
+                            <p class="copyright ml-15">© 2017 - 2018 Binance.com All rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--公用底部-end-->
+        <script type="text/javascript" src="/js/i18n/messages_cn.js"></script>
+        <script src="/js/jquery.min.js" type="text/javascript"></script>
+        <script src="/js/jquery.cookie.js" type="text/javascript"></script>
+        <script src="/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="/js/jquery.autocompleter.js" type="text/javascript"></script>
+        <script src="/va/validator.js" type="text/javascript"></script>
+        <script src="/va/lib/jquery.form.js" type="text/javascript"></script>
+        <script src="/js/bootstrap-datetimepicker.min.js" type="text/javascript"></script> 
+        <script src="/js/webuploader.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="/va/validation-js/coinInfoDynamicValidation.js?locale=cn&amp;v=1519614240"></script>
+        <script type="text/javascript" src="/va/validation-js/coinInfoValidation.js?locale=cn&amp;v=1519614240"></script>
+        <script src="/js/laydate/laydate.js" type="text/javascript"></script>
+        <script src="/js/main.js" type="text/javascript"></script>
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-116565836-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-116565836-1');
+        </script>
+    
+
+</body></html>

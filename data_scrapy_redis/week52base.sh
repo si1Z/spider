@@ -1,0 +1,1 @@
+scrapy crawl week52base2_xignite_xueqiu
