@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="tools" />
+    <orderEntry type="module" module-name="dbf_scrapy" />
+    <orderEntry type="module" module-name="snowball" />
+    <orderEntry type="module" module-name="proxy" />
+    <orderEntry type="module" module-name="yahoo" />
+    <orderEntry type="module" module-name="pbdnof58" />
+    <orderEntry type="module" module-name="SinaWeibo" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="projectConfiguration" value="Nosetests" />
+    <option name="PROJECT_TEST_RUNNER" value="Nosetests" />
+  </component>
+</module>

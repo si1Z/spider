@@ -43,4 +43,13 @@ class BlockChainItem(scrapy.Item):
     introduction_cn = scrapy.Field()
     #媒体号
     social = scrapy.Field()
+    #英文的url
+    en_url = scrapy.Field()
+    #中文的url
+    cn_url = scrapy.Field()
+
+
+if __name__ == "__main__":
+    item = BinanceScrapyItem()
+    item.keys()
 
