@@ -35,8 +35,12 @@ class BlockChainItem(scrapy.Item):
     explorer = scrapy.Field()
     #白皮书 英文
     white_paper_en = scrapy.Field()
+    # 白皮书 英文 状态
+    white_paper_en_state = scrapy.Field()
     # 白皮书 中文
     white_paper_cn = scrapy.Field()
+    # 白皮书 中文 状态
+    white_paper_cn_state = scrapy.Field()
     #介绍 英文
     introduction_en = scrapy.Field()
     # 介绍 中文
@@ -50,6 +54,8 @@ class BlockChainItem(scrapy.Item):
 
 
 if __name__ == "__main__":
-    item = BinanceScrapyItem()
+    item = BinanceScrapyItem(None)
     item.keys()
-
+    print(item['white_paper_en'])
+    # if item['white_paper_en']:
+    #     print()

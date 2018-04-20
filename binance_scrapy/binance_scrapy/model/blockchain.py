@@ -6,7 +6,7 @@
 # @File    : blockchain.py
 # @Software: PyCharm
 
-from sqlalchemy import Column,String,Integer,DateTime
+from sqlalchemy import Column,String,Integer,DateTime,Boolean
 
 from . import Base
 import datetime
@@ -16,7 +16,7 @@ class BlockChain(Base):
     # 代码
     symbol = Column(String(30),primary_key=True,nullable=False)
     # 英文名
-    ename = Column(String(20),nullable=True)
+    ename = Column(String(50),nullable=True)
     # 市值
     market_cap = Column(String(100),nullable=True)
     # 发行总量
@@ -33,8 +33,12 @@ class BlockChain(Base):
     explorer = Column(String(100),nullable=True)
     # 白皮书 英文
     white_paper_en = Column(String(100),nullable=True)
+    # 白皮书 英文 状态
+    white_paper_en_state = Column(Boolean, default=False)
     # 白皮书 中文
     white_paper_cn = Column(String(100),nullable=True)
+    # 白皮书 中文 状态
+    white_paper_cn_state = Column(Boolean, default=False)
     # 介绍 英文
     introduction_en = Column(String(5000),nullable=True)
     # 介绍 中文
@@ -47,7 +51,8 @@ class BlockChain(Base):
     cn_url = Column(String(100),nullable=True)
 
     def __init__(self,dic):
-        pass
+        self.__dict__.update(dic)
+
 
 
     # def __init__(self,symbol=None,ename=None,market_cap=None,max_supply=None,circulating_supply=None,issue_price=None,issue_date=None,website=None,explorer=None,white_paper_en=None,white_paper_cn=None,introduction_en=None,introduction_cn=None,social=None,en_url=None,cn_url=None):

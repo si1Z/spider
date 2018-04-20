@@ -16,7 +16,10 @@ class InfoSpider(scrapy.Spider):
             'binance_scrapy.middlewares.ProxyMiddleware': 100,
         },
 
+        # 'FILES_STORE':'example_src',
+
         'ITEM_PIPELINES': {
+            # 'scrapy.pipeline.files.FilesPipeline': 1,
             'binance_scrapy.pipelines.BlockChainPipeline': 100,
         },
     }
@@ -107,7 +110,7 @@ class InfoSpider(scrapy.Spider):
                 social[li_right.a.get('title')] = li_right.a.get('href') #...............
 
         if social:
-            item['social'] = social
+            item['social'] = repr(social)
 
         # 介绍
         content_text = div.find('div', class_='content-text')
@@ -213,4 +216,4 @@ class InfoSpider(scrapy.Spider):
             if introduction_cn:
                 item['introduction_cn'] = introduction_cn
 
-        print(item)
+        yield item
