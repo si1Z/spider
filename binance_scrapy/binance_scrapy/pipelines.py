@@ -82,12 +82,12 @@ class BlockChainPipeline(object):
         try:
             if 'white_paper_en' in item:
                 e_url = item['white_paper_en']
-                e_white_paper_name = "white_paper_en_{}".format(item['symbol'])
+                e_white_paper_name = "en_{}_{}".format(item['symbol'],item['ename'])
                 e_state,e_name = download(e_white_paper_name,e_url)
                 item['white_paper_en_state'] = e_state
             if 'white_paper_cn' in item:
                 c_url = item['white_paper_cn']
-                c_white_paper_name = "white_paper_cn_{}".format(item['symbol'])
+                c_white_paper_name = "cn_{}_{}".format(item['symbol'],item['ename'])
                 download(c_white_paper_name, c_url)
                 c_state, c_name = download(c_white_paper_name, c_url)
                 item['white_paper_cn_state'] = c_state
@@ -101,6 +101,3 @@ class BlockChainPipeline(object):
         session.commit()
         # return item
 
-class BinanceScrapyPipeline(object):
-    def process_item(self, item, spider):
-        return item

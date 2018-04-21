@@ -13,10 +13,10 @@ import datetime
 class BlockChain(Base):
     __tablename__ = 'block_chain'
 
-    # 代码
-    symbol = Column(String(30),primary_key=True,nullable=False)
     # 英文名
-    ename = Column(String(50),nullable=True)
+    ename = Column(String(50),primary_key=True,nullable=True)
+    # 代码 有可能有重复
+    symbol = Column(String(30),nullable=False)
     # 市值
     market_cap = Column(String(100),nullable=True)
     # 发行总量
