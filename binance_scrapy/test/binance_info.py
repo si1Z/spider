@@ -70,8 +70,10 @@ def get_describtion(url):
             pass
         if str(tmp.span.text).startswith('Max Supply'):
             pass
+            # print(tmp.strong.text)
         if str(tmp.span.text).startswith('Circulating Supply'):
             pass
+            print(tmp.strong.text)
         if str(tmp.span.text).startswith('Issue Price'):
             symb = tmp.find('strong',class_='symbol').text
             num = tmp.find('font',class_='symbolNum three').text

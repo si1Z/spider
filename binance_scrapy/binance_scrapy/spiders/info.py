@@ -66,9 +66,19 @@ class InfoSpider(scrapy.Spider):
             if str(tmp.span.text).startswith('Market Cap'):
                 pass
             if str(tmp.span.text).startswith('Max Supply'):
-                pass
+                try:
+                    max_supply = tmp.strong.text
+                except:
+                    max_supply = None
+                if max_supply:
+                    item['max_supply'] = max_supply
             if str(tmp.span.text).startswith('Circulating Supply'):
-                pass
+                try:
+                    circulating_supply = tmp.strong.text
+                except:
+                    circulating_supply = None
+                if circulating_supply:
+                    item['circulating_supply'] = circulating_supply
             if str(tmp.span.text).startswith('Issue Price'):
                 try:
                     symb = tmp.find('strong', class_='symbol').text

@@ -7,7 +7,7 @@
 import scrapy
 
 from .model import Base,engine,loadSession
-from .model import blockchain
+from .model.blockchain import BlockChain
 
 from scrapy.pipelines.files import FilesPipeline
 from urllib.parse import urlparse
@@ -29,6 +29,8 @@ def download(name,url):
         f.write(rsp.content)
     return (True,filename)
 
+
+
 class MyFilePipeline(FilesPipeline):
 
     def get_media_requests(self, item, info):
@@ -39,6 +41,9 @@ class MyFilePipeline(FilesPipeline):
     def file_path(self, request, response=None, info=None):
         path = urlparse(request.url).path
         return join(basename(dirname(path)),basename(path))
+
+
+
 
 class BlockChainPipeline(object):
     #搜索Base的所有子类，并在数据库中生成表
@@ -79,6 +84,7 @@ class BlockChainPipeline(object):
         #     # 中文的url
         #     cn_url = item['cn_url'],
         # )
+
         try:
             if 'white_paper_en' in item:
                 e_url = item['white_paper_en']
@@ -95,9 +101,12 @@ class BlockChainPipeline(object):
             print("xxxxxxxxxxxxxxxxxx")
 
         item_dict = dict(item)
-        a = blockchain.BlockChain(item_dict)
+        # a = BlockChain(item_dict)
         session = loadSession()
-        session.add(a)
-        session.commit()
+        # session.add(a)
+        # session.commit()
         # return item
 
+        # query1 = session.query(BlockChain)
+        # query1.filter(BlockChain.ename == item_dict['ename']).update({BlockChain.max_supply: item_dict['max_supply'],BlockChain.circulating_supply: item_dict['circulating_supply']})
+        # session.commit()

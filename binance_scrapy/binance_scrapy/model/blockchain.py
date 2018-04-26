@@ -30,7 +30,7 @@ class BlockChain(Base):
     # 官网
     website = Column(String(100),nullable=True)
     # 区块链浏览器
-    explorer = Column(String(100),nullable=True)
+    explorer = Column(String(500),nullable=True)
     # 白皮书 英文
     white_paper_en = Column(String(100),nullable=True)
     # 白皮书 英文 状态

@@ -154,8 +154,8 @@
                                     </h4>
                                     <p>
                                         <strong class="symbol">$</strong>
-                                        <strong class="symbolNum three" data-value="71.550">71.550</strong>
-                                        <span class="text-zhang">1.16%</span>
+                                        <strong class="symbolNum three" data-value="79.820">79.820</strong>
+                                        <span class="text-die">-0.44%</span>
                                         <a href="https://www.binance.com/trade.html?symbol=NEO_BTC" rel="noopener noreferrer" target="_blank">Go to trade &gt;</a>
                                     </p>
                                 </div>
@@ -165,7 +165,7 @@
                     <div class="col-xs-7">
                         <div class="row maket-info">
                             <div class="col-xs-4">
-                                <span>Market Cap</span><strong class="symbol">$</strong><strong class="symbolNum zero" data-value="4650750000.0000000000">4,650,750,000</strong>
+                                <span>Market Cap</span><strong class="symbol">$</strong><strong class="symbolNum zero" data-value="5188300000.0000000000">5,188,300,000</strong>
                             </div>
                             <div class="col-xs-4">
                                 <span>Max Supply</span><strong>100,000,000 NEO</strong>
@@ -181,7 +181,7 @@
                                     <strong class="symbol">$</strong>
                                     <strong>
                                         <font class="symbolNum three" data-value="0.159">0.1590</font>
-                                        <em>44900.00%</em>
+                                        <em>50101.26%</em>
                                         <i class="glyphicon glyphicon-arrow-up"></i>
                                     </strong>
                                     <!--下拉说明-->
