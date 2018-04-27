@@ -14,41 +14,41 @@ class BlockChain(Base):
     __tablename__ = 'block_chain'
 
     # 英文名
-    ename = Column(String(50),primary_key=True,nullable=True)
+    ename = Column(String(50),primary_key=True,nullable=True,comment="英文名")
     # 代码 有可能有重复
-    symbol = Column(String(30),nullable=False)
+    symbol = Column(String(30),nullable=False,comment='代码 有可能有重复')
     # 市值
-    market_cap = Column(String(100),nullable=True)
+    market_cap = Column(String(100),nullable=True,comment='市值')
     # 发行总量
-    max_supply = Column(String(100),nullable=True)
+    max_supply = Column(String(100),nullable=True,comment='发行总量')
     # 流通数量
-    circulating_supply = Column(String(100),nullable=True)
+    circulating_supply = Column(String(100),nullable=True,comment='流通数量')
     # 发行价格
-    issue_price = Column(String(100),nullable=True)
+    issue_price = Column(String(100),nullable=True,comment='发行价格')
     # 发行日期
-    issue_date = Column(String(20),nullable=True)
+    issue_date = Column(String(20),nullable=True,comment='发行日期')
     # 官网
-    website = Column(String(100),nullable=True)
+    website = Column(String(100),nullable=True,comment='官网')
     # 区块链浏览器
-    explorer = Column(String(500),nullable=True)
+    explorer = Column(String(500),nullable=True,comment='区块链浏览器')
     # 白皮书 英文
-    white_paper_en = Column(String(100),nullable=True)
+    white_paper_en = Column(String(100),nullable=True,comment='白皮书 英文')
     # 白皮书 英文 状态
-    white_paper_en_state = Column(Boolean, default=False)
+    white_paper_en_state = Column(Boolean, default=False,comment='白皮书 英文 状态')
     # 白皮书 中文
-    white_paper_cn = Column(String(100),nullable=True)
+    white_paper_cn = Column(String(100),nullable=True,comment='白皮书 中文')
     # 白皮书 中文 状态
-    white_paper_cn_state = Column(Boolean, default=False)
+    white_paper_cn_state = Column(Boolean, default=False,comment='白皮书 中文 状态')
     # 介绍 英文
-    introduction_en = Column(String(5000),nullable=True)
+    introduction_en = Column(String(5000),nullable=True,comment='介绍 英文')
     # 介绍 中文
-    introduction_cn = Column(String(5000),nullable=True)
+    introduction_cn = Column(String(5000),nullable=True,comment='介绍 中文')
     # 媒体号
-    social = Column(String(500),nullable=True)
+    social = Column(String(500),nullable=True,comment='媒体号')
     # 英文的url
-    en_url = Column(String(100),nullable=True)
+    en_url = Column(String(100),nullable=True,comment='英文的url')
     # 中文的url
-    cn_url = Column(String(100),nullable=True)
+    cn_url = Column(String(100),nullable=True,comment='中文的url')
 
     def __init__(self,dic):
         self.__dict__.update(dic)

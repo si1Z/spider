@@ -15,23 +15,23 @@ class CoinMarketCap(Base):
     # 行号，没用
     # num = scrapy.Field()
     # 英文名
-    ename = Column(String(50),primary_key=True,nullable=True)
+    ename = Column(String(50),primary_key=True,nullable=True,comment='英文名')
     # 代码 有可能有重复
-    symbol = Column(String(30), nullable=True)
+    symbol = Column(String(30), nullable=True,comment='代码 有可能有重复')
     # 市值
-    market_cap = Column(String(100), nullable=True)
+    market_cap = Column(String(100), nullable=True,comment='市值')
     # 价格
-    price = Column(String(100), nullable=True)
+    price = Column(String(100), nullable=True,comment='价格')
     # 流通数量
-    circulating_supply = Column(String(100), nullable=True)
+    circulating_supply = Column(String(100), nullable=True,comment='流通数量')
     # 24小时成交量
-    volume_24h = Column(String(100),nullable=True)
+    volume_24h = Column(String(100),nullable=True,comment='24小时成交量')
     # 一小时涨跌幅
-    change_percent_1h = Column(String(30), nullable=True)
+    change_percent_1h = Column(String(30), nullable=True,comment='一小时涨跌幅')
     # % 24h涨跌幅
-    change_percent_24h = Column(String(30), nullable=True)
+    change_percent_24h = Column(String(30), nullable=True,comment='% 24h涨跌幅')
     # % 7d涨跌幅
-    change_percent_7d = Column(String(30), nullable=True)
+    change_percent_7d = Column(String(30), nullable=True,comment='% 7d涨跌幅')
 
 
     def __init__(self,dic):

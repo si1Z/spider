@@ -14,6 +14,7 @@ class MyHrefPipeline(object):
     Base.metadata.create_all(engine)
 
     def process_item(self, item, spider):
+        item['github_href'] = "https://github.com/{}".format(item['owner'])
         item_dict = dict(item)
         a = MyHrefModel(item_dict)
         session = loadSession()

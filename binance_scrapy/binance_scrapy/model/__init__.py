@@ -15,7 +15,7 @@ from sqlalchemy.orm import sessionmaker
 Base = declarative_base()
 
 # 初始化数据库连接:
-engine = create_engine('mysql+pymysql://root:@localhost/binance?charset=utf8')
+engine = create_engine('mysql+pymysql://root:toor@localhost/binance?charset=utf8')
 
 
 #返回数据库会话
